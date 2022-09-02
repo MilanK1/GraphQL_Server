@@ -6,7 +6,7 @@ const   typeDefs = require("./typeDefs");
  
 const startServer = async () => {
   const app = express();
-
+  //THIS IS A TEST IN INDEX
   const server = new ApolloServer({
     typeDefs,
     resolvers
